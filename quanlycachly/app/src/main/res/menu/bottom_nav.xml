@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bottom_checkin"
+        android:title="Check In"
+        android:icon="@drawable/ic_input_black_24dp"/>
+    <item
+        android:id="@+id/nav_bottom_info"
+        android:title="Thông Tin Cá Nhân"
+        android:icon="@drawable/ic_person_black_24dp"/>
+</menu>

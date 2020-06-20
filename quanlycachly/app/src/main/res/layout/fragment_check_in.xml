@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.fragment.CheckInFragment"
+    android:paddingHorizontal="20dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/howdoyoufeel"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"/>
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_sot"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Sốt"
+                android:textSize="20sp" />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_ho"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Ho"
+                android:textSize="20sp" />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_khotho"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Khó Thở"
+                android:textSize="20sp" />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_daunguoi"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Đau Người, Mệt Mỏi"
+                android:textSize="20sp" />
+
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_suckhoetot"
+                style="@style/Material.Drawable.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="Sức Khỏe Tốt"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <com.agik.AGIKSwipeButton.View.Swipe_Button_View
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:sb_swipe_text="Vuốt Để Báo Cáo"
+                app:sb_swipe_animate_text="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Lịch sử báo cáo"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/historyCheckin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

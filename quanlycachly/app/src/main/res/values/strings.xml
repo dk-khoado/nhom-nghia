@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quản Lý Cách Ly Tại Nhà</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="btnLogin">Đăng Nhập</string>
+    <string name="title_dangNhap">Đăng Nhập</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_sot">Sốt</string>
+    <string name="txt_ho">Ho</string>
+    <string name="howdoyoufeel">Hôm nay bạn cảm thấy thế nào ?</string>
+    <string name="getout">Người thân của bạn có triệu chứng bất thường ?</string>
+    <string name="fullname">Họ và tên</string>
+    <string name="brithDay">Ngày Sinh</string>
+    <string name="numberPhone">Số điện thoại</string>
+    <string name="idCard">CMND</string>
+    <string name="titileChangePassword">Thay đổi mật khẩu</string>
+    <string name="btnChangePass">Đổi Mật Khẩu</string>
+    <string name="empty">không được để trống</string>
+</resources>

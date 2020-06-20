@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="progressRainbow">
+        <item>#6200EE</item>
+        <item>#8037E8</item>
+    </string-array>
+</resources>

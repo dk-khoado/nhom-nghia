@@ -1,0 +1,2 @@
+rootProject.name='Quản Lý Cách Ly Tại Nhà'
+include ':app'
